@@ -9,3 +9,5 @@ export TZ=Asia/Kuching
 source build/envsetup.sh
 lunch lineage_earth-userdebug
 m evolution
+crave pull out/target/product/*/*.img
+crave pull out/target/product/*/*.zip
