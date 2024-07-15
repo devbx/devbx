@@ -11,4 +11,5 @@ export KBUILD_HOSTNAME=crave
 export TZ=Asia/Kuching
 source build/envsetup.sh
 breakfast earth
+make installclean
 brunch earth
