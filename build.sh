@@ -1,18 +1,21 @@
 #!/bin/bash
-rm -rf .repo/local_manifests/
-repo init -u https://github.com/ProjectMatrixx/android.git -b 14.0 --git-lfs
-git clone https://github.com/devbx/local_manifests.git -b matrixx .repo/local_manifests
-/opt/crave/resync.sh
-export BUILD_USERNAME=devbx
-export BUILD_HOSTNAME=crave
-export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
-export KBUILD_USERNAME=devbx
-export KBUILD_HOSTNAME=crave
-export TZ=Asia/Kuching
+# rm -rf .repo/local_manifests/
+# repo init -u https://github.com/ProjectMatrixx/android.git -b 14.0 --git-lfs
+# git clone https://github.com/devbx/local_manifests.git -b matrixx .repo/local_manifests
+# /opt/crave/resync.sh
+# export BUILD_USERNAME=devbx
+# export BUILD_HOSTNAME=crave
+# export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
+# export KBUILD_USERNAME=devbx
+# export KBUILD_HOSTNAME=crave
+# export TZ=Asia/Kuching
 source build/envsetup.sh
-breakfast earth
-make installclean
-mka target-files-package otatools
+# breakfast earth
+# make installclean
+# mka target-files-package otatools
+git clone https://github.com/devbx/keys.git
+rm -rf .android-certs
+mv keys/.android-certs .
 croot
 sign_target_files_apks -o -d ~/.android-certs \
     --extra_apks AdServicesApk.apk=$HOME/.android-certs/releasekey \
