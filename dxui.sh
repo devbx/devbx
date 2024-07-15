@@ -10,5 +10,5 @@ export KBUILD_USERNAME=devbx
 export KBUILD_HOSTNAME=crave
 export TZ=Asia/Kuching
 source build/envsetup.sh
-lunch droidx_earth-ap2a-userdebug
+breakfast earth
 m bacon
