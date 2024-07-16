@@ -12,7 +12,7 @@ export TZ=Asia/Kuching
 rm -rf vendor/lineage-priv/keys
 git clone https://github.com/devbx/keys
 mkdir vendor/lineage-priv/
-mv keys vendor/lineage-priv
+mv keys vendor/lineage-priv/
 source build/envsetup.sh
 breakfast earth
 make installclean
