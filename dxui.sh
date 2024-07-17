@@ -10,6 +10,6 @@ export KBUILD_USERNAME=devbx
 export KBUILD_HOSTNAME=crave
 export TZ=Asia/Kuching
 source build/envsetup.sh
-breakfast earth
+breakfast earth userdebug
 make installclean
 m bacon
