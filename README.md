@@ -3,9 +3,7 @@
 
 - 🌱 I’m currently learning **C++, JavaScript and Python.**
 
-- 👨‍💻 All of my projects are available at [https://github.com/devbx](https://github.com/devbx)
-
-- 📝 I regularly write articles on [https://devbx.is-a.dev](https://devbx.is-a.dev)
+- 👨‍💻 All of my projects are available at my [GitHub](https://github.com/devbx)
 
 - 📫 How to reach me **devbx@proton.me**
 
