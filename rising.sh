@@ -12,4 +12,3 @@ export TZ=Asia/Kuching
 source build/envsetup.sh
 riseup earth userdebug
 rise b
-rise fb
