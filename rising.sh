@@ -11,4 +11,5 @@ export KBUILD_HOSTNAME=crave
 export TZ=Asia/Kuching
 source build/envsetup.sh
 riseup earth userdebug
+make installclean
 rise b
