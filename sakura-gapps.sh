@@ -11,5 +11,4 @@ export KBUILD_HOSTNAME=crave
 export TZ=Asia/Kuching
 source build/envsetup.sh
 lunch lineage_earth-ap2a-userdebug
-make installclean
 mka bacon
