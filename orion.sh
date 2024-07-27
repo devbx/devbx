@@ -1,5 +1,5 @@
 #!/bin/bash
-rm -rf .repo/local_manifests/
+rm -rf .repo/
 repo init -u https://github.com/OrionOS-prjkt/android -b 14.0 --git-lfs
 git clone https://github.com/devbx/local_manifests.git -b orion .repo/local_manifests
 /opt/crave/resync.sh
