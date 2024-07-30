@@ -13,3 +13,5 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=devbx&show_icons=true&theme=synthwave&locale=en" alt="devbx" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=devbx&" alt="devbx" /></p>
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O4O8116272)
