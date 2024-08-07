@@ -10,7 +10,6 @@ export KBUILD_USERNAME=devbx
 export KBUILD_HOSTNAME=crave
 export TZ=Asia/Kuching
 source build/envsetup.sh
-peak earth userdebug
+lunch everest_earth-ap2a-userdebug
 make installclean
 climb m
-climb mb
